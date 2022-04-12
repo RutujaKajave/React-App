@@ -32,11 +32,7 @@ const Banner = ({ title }) => (
   <h1>{ title }</h1>
 );
 
-const terms = {
-  F: 'Fall',
-  W: 'Winter',
-  S: 'Spring',
-};
+const terms = {F: 'Fall',W: 'Winter',S: 'Spring',};
 
 const getCourseTerm = (course) => (
   terms[course.id.charAt(0)]
